@@ -5,3 +5,15 @@
 #navName {
     background-color: #4aaaa5;
 }
+
+#jumbo {
+    background-color: transparent;
+}
+
+h3 {
+    border-bottom: #cccccc solid;
+    color: #4aaaa5;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}

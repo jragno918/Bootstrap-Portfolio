@@ -9,47 +9,42 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
 </head>
 
+<header>
+    <nav class="navbar navbar-light bg-light" style="border-bottom: #cccccc solid;">
+        <!--Left Side-->
+        <span class="navbar-brand mb-0 ml-5 mt-0 h1 p-4 text-white" style="font-family: 'Abril Fatface'; font-size: 40px color #4aaaa5" id="navName"><a href="index.html" style="color: white; text-decoration: none;"> Joseph Ragno</a></span>
+        <!--Right Side-->
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active ml-2 text-muted" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border-left border-right text-muted" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-2 text-muted" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
 <body>
     <!--Container-->
-    <div class="container" id="bckrnd">
+    <div class="container"  id="bckrnd">
         <!--Row 1-->
-        <div class="row" style="background-color: #ffffff; border-bottom: solid #cccccc thick">
-            <!--Column 1 Empty Space-->
-            <div class="col-md-1">
-            </div>
-            <!--Column 2-->
-            <div class="col-md-10">
-                <nav class="navbar navbar-light bg-light shadow">
-                    <!--Left Side-->
-                    <span class="navbar-brand mb-0 ml-5 mt-0 h1 p-4 text-white" style="font-family: 'Abril Fatface', cursive; font-size: 40px color #4aaaa5" id="navName">Joseph Ragno</span>
-                    <!--Right Side-->
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active ml-2 text-muted" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border-left border-right text-muted" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mr-2 text-muted" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <!--Column 3 Empty Space-->
-            <div class="col-md-1">
-            </div>
+        <div class="row">
         </div>
         <!--Row 2-->
         <div class="row">
+            <!--Column 1-->
             <div class="col-md-3">
-            </div> 
+            </div>
             <!--Column 2-->
-            <div class="col-md-6">
-                <div class="jumbotron">
+            <div class="col-md-6" style="width: 100%;">
+                <div class="jumbotron" id="jumbo" style="margin: 30px 0px 120px 0px; background-color: white; border: #cccccc solid thin;">
                     <p class="display-4" style="color: #4aaaa5; font-size: 36px; font-weight: bold;">About Me</p>
                     <hr class="my-4">
-                    <img src="Desktop/code/homework/Bootstrap-Portfolio/assets/imagesIMG_1891.JPG" style="float: left">
+                    <img src="/Users/joe/Desktop/code/homework/Bootstrap-Portfolio/assets/images/IMG_1891.JPG" style="float: left">
                     <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ut, eligendi aliquid esse quo ipsa perferendis. Harum beatae nostrum at aperiam exercitationem? Eos neque itaque velit labore error recusandae maiores.</p>
                 </div>
             </div>
@@ -58,10 +53,15 @@
             </div>
         </div>
         <!--Row 3-->
-        <div class="row" style="color: #a7a7a7; background-color: #666666; border-top: solid #4aaaa5; border-width: thick; height: 50px;">
-            <p style="margin: auto;">© Copyright</p>
+        <div class="row">
         </div>
     </div>
 </body>
+
+<footer>
+    <div class="row" style="color: #a7a7a7; background-color: #666666; border-top: solid #4aaaa5; border-width: thick; height: 75px;">
+        <p style="margin: auto;">© Copyright</p>
+    </div> 
+</footer>
 
 </html>
